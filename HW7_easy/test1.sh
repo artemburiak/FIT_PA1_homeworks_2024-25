@@ -1,0 +1,10 @@
+./a.out < tests/0000_in.txt > tmp; diff tmp tests/0000_out.txt
+./a.out < tests/0001_in.txt > tmp; diff tmp tests/0001_out.txt
+./a.out < tests/0002_in.txt > tmp; diff tmp tests/0002_out.txt
+./a.out < tests/0003_in.txt > tmp; diff tmp tests/0003_out.txt
+./a.out < tests/0004_in.txt > tmp; diff tmp tests/0004_out.txt
+./a.out < tests/0005_in.txt > tmp; diff tmp tests/0005_out.txt
+./a.out < tests/0006_in.txt > tmp; diff tmp tests/0006_out.txt
+./a.out < tests/0007_in.txt > tmp; diff tmp tests/0007_out.txt
+./a.out < tests/0008_in.txt > tmp; diff tmp tests/0008_out.txt
+./a.out < tests/0009_in.txt > tmp; diff tmp tests/0009_out.txt
